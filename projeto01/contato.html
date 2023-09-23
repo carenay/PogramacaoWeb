@@ -6,7 +6,7 @@
 	<title>Contato</title>
 </head>
 <body>
-   <table border="0" width="900" align="center">
+   <table border="0" width="950" align="center">
    <tr>
    	<td>
    		<img src="imagem\logo.png" />
@@ -27,14 +27,14 @@
  		</td>
  	</tr>
  	<tr>
- 		<td >
- 			<form>
+ 		<td>
+ 			<form action="login.html">
  				Login:<br/>
  				<input type="text" name="Login" ><br/>
  				Senha:<br/>
  				<input type="password" name="Senha" maxlength="8"><br/>
  				
- 				<input type="button" value="Entrar">
+ 				<input type="submit" value="Entrar">
  				<td align="center">
  			<strong>Reserve Seu Pacote</strong>
  		</td>
@@ -42,8 +42,8 @@
  		</td>
  	</tr>
  	<tr>
- 		<td>
- 			<form >
+ 		<td >
+ 			<form action="http:/191.252.62.149:8080/pweb/salvar.jsp" method="post">
  				<strong > Faça Seu Cadastro:  </strong> <br/>
  				Nome:<br/>
  				<input type="text" name="Nome"><br/>
@@ -67,9 +67,9 @@
  			     <input  type="checkbox" name="Preferências">Gastronomia<br/>
 
  			     <br/>
- 			     <input type="button" value=" Cadastrar">
+ 			     <input type="submit" value=" Cadastrar">
 
- 			     <td> 
+ 			     <td > 
  			     	
  			     		<strong>Selecione Sua Origem e Seu Destino</strong><br/>
  			     		<label for="origem">Origem :</label>
@@ -77,7 +77,7 @@
  			     			<optgroup label="Nordeste">
  			     				 <option value="piaui">Piauí</option>
  			     				  <option value="bahia">Bahia</option>
- 			     				   <option value="pernanbuco">Pernabuco</option>
+ 			     				   <option value="pernambuco">Pernambuco</option>
  			     				    <option value="ceara">Ceará</option>
  			     				     <option value="rio grande do norte">Rio Grade Do Norte</option>
  			     	</optgroup >
@@ -89,13 +89,12 @@
  			     	</optgroup>
  			     </select> 
 
- 			     	<td>
- 			     		<label for="destino">Destino :</label>
+ 			     <label for="destino">Destino :</label>
  			     		<select name="destinom" id="destino">
  			     			<optgroup label="Nacional">
  			     				 <option value="piaui">Piauí</option>
  			     				  <option value="bahia">Bahia</option>
- 			     				   <option value="pernanbuco">Pernabuco</option>
+ 			     				   <option value="pernambuco">Pernambuco</option>
  			     				    <option value="ceara">Ceará</option>
  			     				     <option value="rio grande do norte">Rio Grade Do Norte</option>
  			     	</optgroup >
@@ -105,18 +104,50 @@
  			     		<option value="canadá">Canadá</option>
  			     		
  			     	</optgroup>
- 			     	</td>
- 			     		
- 			     	</select>
+ 			     	</select>		
+ 			     	   <br/>
 
- 			     </td>
+ 			     		<strong alig>Quantidade de Adultos</strong><br/>
+ 			     		<label for="adultos">Adultos:</label>
+ 			     		<select name="adultos" id="adultos">
+ 			     			<optgroup label="Adultos">
+ 			     				 <option value="1">1</option>
+ 			     				  <option value="2">2</option>
+ 			     				   <option value="3">3</option>
+ 			     				    <option value="4">4</option>
+ 			     				</optgroup>
+ 			     			</select>
+ 			     			<br/>
+ 			     		<strong alig>Quantidade de Crianças</strong><br/>
+ 			     		<label for="Crianças">Crianças:</label>
+ 			     		<select name="Crianças" id="Crianças">
+ 			     			<optgroup label="Adultos">
+ 			     				<option value="0">0</option>
+ 			     				 <option value="1">1</option>
+ 			     				  <option value="2">2</option>
+ 			     				   <option value="3">3</option>
+ 			     				    <option value="4">4</option>
+ 			     				</optgroup>
+ 			     			</select>
+ 			     			<br/>
+ 			     			Animal Doméstico:<br/>
+ 				<input type="radio"  name="Opcional">Sim<br/>
+ 				<input type="radio"  name="Opcional"> Não<br/>
+ 				 <br/>
+ 			     <input type="button" value=" Reservar">
+ 			    
 
 
 
  			</form>
  		</td>
  	</tr>
- 	
+     <tr>
+ 		
+ 		<td colspan="2" align="center">
+ 			<h4>By Power System 2023</h4>
+ 		</td>
+ 	</tr>	
  
    </table>
 </body>
