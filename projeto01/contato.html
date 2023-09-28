@@ -6,7 +6,7 @@
 	<title>Contato</title>
 </head>
 <body>
-   <table border="0" width="950" align="center">
+   <table border="1" width="950" align="center">
    <tr>
    	<td>
    		<img src="imagem\logo.png" />
@@ -27,7 +27,7 @@
  		</td>
  	</tr>
  	<tr>
- 		<td>
+ 		<td colspan="3">
  			<form action="login.html">
  				Login:<br/>
  				<input type="text" name="Login" ><br/>
@@ -35,9 +35,7 @@
  				<input type="password" name="Senha" maxlength="8"><br/>
  				
  				<input type="submit" value="Entrar">
- 				<td align="center">
- 			<strong>Reserve Seu Pacote</strong>
- 		</td>
+ 				
             </form>
  		</td>
  	</tr>
@@ -68,8 +66,9 @@
 
  			     <br/>
  			     <input type="submit" value=" Cadastrar">
-
  			     <td > 
+ 			     	   <strong>Reserve Seu Pacote</strong> <br/>
+ 			     	   <br/>
  			     	
  			     		<strong>Selecione Sua Origem e Seu Destino</strong><br/>
  			     		<label for="origem">Origem :</label>
@@ -105,7 +104,17 @@
  			     		
  			     	</optgroup>
  			     	</select>		
+ 			     	   
+                    <br/>
+                    <br/>
+
+
+ 			     	   Data de partida <input id="date" type="date" /> 
+ 			     	   Data de Retorno <input id="date" type="date" />
+
+
  			     	   <br/>
+
 
  			     		<strong alig>Quantidade de Adultos</strong><br/>
  			     		<label for="adultos">Adultos:</label>
@@ -132,13 +141,10 @@
  			     			<br/>
  			     			Animal Doméstico:<br/>
  				<input type="radio"  name="Opcional">Sim<br/>
- 				<input type="radio"  name="Opcional"> Não<br/>
- 				 <br/>
+ 				<input type="radio"  name="Opcional"> Não<br>
+ 				 				 <br/>
  			     <input type="button" value=" Reservar">
  			    
-
-
-
  			</form>
  		</td>
  	</tr>
