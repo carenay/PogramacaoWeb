@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Atividade 12</title>
+	<style type="text/css">
+		.pessoa {
+			color:red;
+		}
+		.pessoa[data-idade] {
+			color:blue;
+		}
+	</style>
+	<script type="text/javascript">
+		function mostrarvalor(componente) {
+			var valor = componente.getAtribute('data-idade');
+			alert(valor)
+		}
+	</script>
+</head>
+<body>
+<ul>
+	<li class="pessoa" onclick="mostrarvalor(this)" data-idade ="20">Jõao</li>
+	<li class="pessoa" onclick="mostrarvalor(this)" data-idade ="30">Jose</li>
+	<li class="pessoa" onclick="mostrarvalor(this)" data-idade ="40">Maria</li>
+</ul>
+</body>
+</html>
