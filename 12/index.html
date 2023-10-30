@@ -9,6 +9,15 @@
 		.pessoa[data-idade] {
 			color:blue;
 		}
+		.pessoa[data-idade= '30'] {
+			color:red;
+		}
+		.pessoa:: before{
+		content: 'antes' 
+		 }
+		 .pessoa:: before{
+		content: 'depois' 
+		 }
 	</style>
 	<script type="text/javascript">
 		function mostrarvalor(componente) {
@@ -19,9 +28,9 @@
 </head>
 <body>
 <ul>
-	<li class="pessoa" onclick="mostrarvalor(this)" data-idade ="20">Jõao</li>
-	<li class="pessoa" onclick="mostrarvalor(this)" data-idade ="30">Jose</li>
-	<li class="pessoa" onclick="mostrarvalor(this)" data-idade ="40">Maria</li>
+	<li class="pessoa" onclick="mostrarvalor(this)" data-idade ="20">Jõao - Idade 20 Anos -  CPF: 0090.987</li>
+	<li class="pessoa" onclick="mostrarvalor(this)" data-idade ="30">Jose- Idade 30 Anos - CPF: 12345</li>
+	<li class="pessoa" onclick="mostrarvalor(this)" data-idade ="40">Maria- Idade 40 Anos - CPF:87546</li>
 </ul>
 </body>
 </html>
