@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<title> Atividade </title>
+	<style type="text/css">
+		.elemento{
+			background:url( ./imagem/camera.png) ;
+			width: 300px;
+			height: 300px;
+			margin: 50px;
+			margin-left: 300px;
+			box-sizing: border-box;
+			box-shadow: 10px 10px 5px  #888888;	
+			float: left;
+			text-color: white;
+
+
+
+
+		}
+		.elemento h1{
+			background: rgba(192,192,192, 0.3);
+			text-shadow: 3px 3px 3px orange;
+			text-align: center;
+
+		}
+		.elemento p{
+			color: white;
+		}
+			.elemento1{
+			background-image:linear-gradient(to top left, yellow,red ) ;
+			width: 300px;
+			height: 300px;
+			margin: 50px;
+			box-sizing: border-box;
+			float: left;
+			
+		}
+
+		.elemento1 h1{
+			background: rgba(255,255,255, 0.5);
+			text-shadow: 3px 3px 3px orange;
+			text-align: center;
+		}
+		
+          
+		.elemento2{
+			background: #FFDAB9;
+			width:500px;
+			height: 200px;
+			margin: 50px;
+			position: relative;
+			float: left;
+			text-align: center;
+
+         }
+         .elemento2:before , .elemento2:after{
+         	content: '';
+         	position: absolute;
+         	z-index:-2;
+
+
+         }
+         .elemento2:before{
+         	width: 50%;
+         	height:25% ;
+         	left: 15px;
+         	bottom: 20px;
+         	box-shadow: 0px 20px 10px  #888888;
+         	-moz-transform: rotate(-10deg);
+
+          }
+           .elemento2:after{
+         	width: 50%;
+         	height:25% ;
+         	right: 15px;
+         	bottom: 20px;
+         	box-shadow: 0px 20px 10px  #888888;
+         	-moz-transform: rotate(10deg);
+
+          }
+
+
+		.elemento3{
+			background: #EEE8AA;
+			width:500px;
+			height: 200px;
+			margin: 50px;
+			box-sizing: border-box;
+			position: relative;
+			float: left;
+			text-align: center;
+			 
+			}
+			 .elemento3:before {
+         	content: '';
+         	position: absolute;
+         	z-index:-2;
+         }
+			 .elemento3:before{
+         	width: 50%;
+         	height:25% ;
+         	left: 15px;
+         	bottom: 20px;
+         	box-shadow: 0px 20px 10px  #888888;
+         	-moz-transform: rotate(-10deg);
+         }
+
+	</style>
+</head>
+<body>
+<nav>
+<div class="elemento"> 
+	<h1> Loren Impulsem </h1>
+	<p> É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação.</p>
+	</div>
+	<div class="elemento1">
+		<h1> Loren Impulsem </h1>
+	<p> É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação.</p>
+	</div>
+	</nav>
+	
+	
+
+</nav>
+<nav>
+<div class="elemento2" >
+	
+shadow 1 
+</div>
+ <div class="elemento3">shadow2
+ </div>
+
+</nav>
+	
+</body>
+</html>
