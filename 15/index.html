@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<title> Atividade 15 </title>
+	<style type="text/css">
+		@keyframes animacoes{
+			 
+			0%{
+				left: 0px;
+				background: red;
+				transform: rotate(0);
+			}
+
+			
+
+			
+
+			
+				100%{
+				left:100px;
+				background: blue;
+				border-radius: 100px;
+				transform: rotate(360deg);
+
+			}
+
+		}
+		.elemento{
+			position:relative;
+			left:10px;
+			top: 100px;
+			width: 100px;
+			height: 100px;
+			background: red;
+			animation-name: animacoes ;
+			animation-duration: 20s;
+			animation-delay: 3s;
+			animation-iteration-count: 4;
+		     -moz-animation-duration: 20s;
+            -webkit-animation-duration: 20s;
+            animation-direction: alternate;
+            animation-fill-mode: forwards;
+
+			
+		}
+		.elemento:hover {
+			border :solid 5px black;
+			transition: border 3s, 2s 3;
+
+		}
+		.elemento:animator{
+			animation:loading 10s linear infinite;
+
+		}
+
+	</style>
+</head>
+
+<body>
+<div class="elemento"> 
+</div>
+</body>
+</html>
