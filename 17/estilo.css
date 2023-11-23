@@ -1,0 +1,27 @@
+body{
+	.conteudo {
+			background: #DCDCDC;
+			border: 2px solid blue;
+			
+			
+
+			
+		}
+		.linha {
+			background: #FFEBDC;
+			border: 2px solid blck;
+
+		}
+		.coluna {
+			background: #87CEEB;
+			border: 2px solid black;
+			text-align: center;
+
+		
+
+		}
+
+		
+	
+
+}
