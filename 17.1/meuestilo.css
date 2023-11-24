@@ -1,0 +1,50 @@
+body{
+	conteudo {
+			background: white;
+
+			
+		}
+		.linha {
+			background: white;
+
+			
+		
+		}
+		.coluna {
+			background: white;
+			padding: 5px;
+		    
+			
+				
+
+			
+			
+		
+			
+			
+		}
+	
+	.img {
+		width: 100%;
+		height: 72%;	
+
+	}
+
+	.img1{
+		width: 100%;
+		height: 20%;
+
+		
+		
+		
+		
+	
+	}
+	.img2{
+		width: 100%;
+		height: 100%; 
+		
+
+		
+	}
+}
