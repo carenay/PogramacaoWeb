@@ -1,8 +1,9 @@
 *{
       box-sizing: border-box;
-      margin: 0;
-      padding: 0;
+      margin: 0px;
+      padding: 0px;
       font-family:"poppins", sans-serif;
+
 }
 .body{
       background:#121212 ;
@@ -10,7 +11,7 @@
        min-height: 100vh;
       dysplay:flex; 
       justify-content: center;
-      align-items: center;
+      
       }
 
       .container{
@@ -19,16 +20,19 @@
             max-width: 600px;
             width: 100% ;
             box-sizing: 0 3px 5px rgba(0,0,0 , 0.5);
-
+          
       }
       .header{
             padding: 24px;
-            color: #A9A9A9;
+            color: #708090;
             text-align: center;
-            al
+             background: #B0C4DE;
+           
       }
       .form{
             padding: 18px;
+             background: #B0C4DE;
+             align-items: center;
       }
 
       .form-content{
@@ -49,4 +53,7 @@
             text-align: center;
              background:#121212 ;
       } 
-    
+    .p{
+      text-align: lefy;
+      color: blue;
+    }
