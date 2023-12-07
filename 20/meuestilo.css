@@ -1,0 +1,52 @@
+*{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family:"poppins", sans-serif;
+}
+.body{
+      background:#121212 ;
+      whidth:100%;
+       min-height: 100vh;
+      dysplay:flex; 
+      justify-content: center;
+      align-items: center;
+      }
+
+      .container{
+            background: #fafafa;
+            margin: 14px;
+            max-width: 600px;
+            width: 100% ;
+            box-sizing: 0 3px 5px rgba(0,0,0 , 0.5);
+
+      }
+      .header{
+            padding: 24px;
+            color: #A9A9A9;
+            text-align: center;
+            al
+      }
+      .form{
+            padding: 18px;
+      }
+
+      .form-content{
+            margin-bottom: 8px ;
+            padding-bottom: 18px;
+            position: relative;
+
+      }
+      .form-content input{
+            display: block;
+            width: 100%;
+            border: 8px;
+            padding: 8px;
+            border: 2px solid #000000;
+      }
+      
+     .table{
+            text-align: center;
+             background:#121212 ;
+      } 
+    
