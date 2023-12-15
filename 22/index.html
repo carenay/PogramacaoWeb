@@ -39,13 +39,19 @@ footer{
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse d-lg-flex justify-content-center"  id="navbarNavDropdown">
-      <ul class="navbar-nav mr-auto mt-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
         </li>
      
-	      <a class="nav-link active" aria-current="page" href="javascript:esceve()">Escrever Na Modal
-	      </a>
-	      
+	     <li class="nav-item">
+          <a class="nav-link" href="index.html">Atividade 22</a>
+          
+        </li>
+	    
+	      <li class="nav-item">
+          <a class="nav-link" href="javascript:escreve()">Janela Modal</a>
+          <div id="minhaDiv"></div>
+        </li>
     
         <li class="nav-item">
           <a class="nav-link" href="javascript:minhafuncao(10,20)">Soma</a>
@@ -112,13 +118,10 @@ footer{
 		function escreve() {
 			var texto = prompt("Digite um texto qualquer!");
 			document.getElementById("minhaDiv").innerHTML = texto;
-
-		}
+}
+		
 	</script>
 	
-<div id="minhaDiv">
-	      	
-	      </div>
 	
 	
     <footer>
