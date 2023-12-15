@@ -25,6 +25,7 @@ footer{
    	font-weight: bold;
    	position: relative;
    bottom: 0;
+   padding-top: 300px;
 }
 
    </style>
@@ -37,11 +38,15 @@ footer{
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-	 <a class="nav-link active" aria-current="page" href="#">Escrever Na Modal  </a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <div class="collapse navbar-collapse d-lg-flex justify-content-center"  id="navbarNavDropdown">
+      <ul class="navbar-nav mr-auto mt-2 mb-lg-0">
         <li class="nav-item">
         </li>
+     
+	      <a class="nav-link active" aria-current="page" href="javascript:esceve()">Escrever Na Modal
+	      </a>
+	      
+    
         <li class="nav-item">
           <a class="nav-link" href="javascript:minhafuncao(10,20)">Soma</a>
         </li>
@@ -50,11 +55,12 @@ footer{
 </div>
 </div>
 </nav>
+<div>
   <a href="javascript:Raiz1(25)">25</a><br>
 	<a href="javascript:Raiz2(36)">36</a><br>
 	<a href="javascript:Raiz3(49)">49</a><br>
+</div>
 
-</header>
 <script type="text/javascript">
 
 		function minhafuncao(arg1,arg2){
@@ -102,8 +108,17 @@ footer{
 
        }
 </script>
-	
+<script type="text/javascript">
+		function escreve() {
+			var texto = prompt("Digite um texto qualquer!");
+			document.getElementById("minhaDiv").innerHTML = texto;
 
+		}
+	</script>
+	
+<div id="minhaDiv">
+	      	
+	      </div>
 	
 	
     <footer>
