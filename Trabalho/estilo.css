@@ -1,0 +1,29 @@
+  .container {
+            background:  white;
+            border:2px solid black;
+            margin-top: 30px;
+            height: 1200px;
+            align-items: center;
+             width: 900px;
+      }
+    .button{
+      width:  30px;
+      height: 90px;
+      display: block;
+     margin-top: 40px;
+     align-items: center;
+    }  
+    
+   .h2{
+    padding-top:5px;
+
+   }
+
+   input[type=text] {
+width: 50%;
+
+}
+.col-sm{
+ fl padding-left: 12px;
+  padding-right: 12px;
+}    
